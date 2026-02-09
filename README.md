@@ -44,6 +44,11 @@ MONGODB_URI=mongodb://localhost:27017/hospital-db
 PORT=5000
 JWT_SECRET=your_jwt_secret
 CLIENT_URL=http://localhost:5173
+
+# admin user details
+name = Super Admin
+email = admin@hospital.com
+password = admin@123
 ```
 
 Adjust values as needed (for example use a MongoDB Atlas URI).
